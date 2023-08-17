@@ -39,9 +39,9 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1     &kp N2    &kp N3    &kp N4  &kp N5              &tog 2                                                                &tog 3  &kp N6    &kp N7     &kp N8     &kp N9     &kp N0  &kp MINUS
- &lt 5 TAB      &kp Q      &kp W     &kp E     &kp R   &kp T               &none                                                                 &none   &kp Y     &kp U      &kp I      &kp O      &kp P   &kp BSLH
- &lt 4 ESC      &kp A      &kp S     &kp D     &kp F   &kp G               &none  &kp LCTRL    &tog 1   &none   &none      &mo 6  &kp RCTRL      &none   &kp H     &kp J      &kp K      &kp L   &kp SEMI  &lt 4 SQT
+ &kp EQUAL     &kp N1     &kp N2    &kp N3    &kp N4  &kp N5               &none                                                                 &none  &kp N6    &kp N7     &kp N8     &kp N9     &kp N0  &kp MINUS
+ &lt 3 TAB      &kp Q      &kp W     &kp E     &kp R   &kp T               &none                                                                 &none   &kp Y     &kp U      &kp I      &kp O      &kp P   &kp BSLH
+ &lt 2 ESC      &kp A      &kp S     &kp D     &kp F   &kp G               &none  &kp LCTRL    &tog 1   &none   &none      &mo 4  &kp RCTRL      &none   &kp H     &kp J      &kp K      &kp L   &kp SEMI  &lt 2 SQT
  &kp LSHFT      &kp Z      &kp X     &kp C     &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N     &kp M  &kp COMMA    &kp DOT   &kp FSLH  &kp RSHFT
  &kp LCTRL  &kp LCTRL  &kp LCTRL  &kp LALT  &kp LGUI                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp RGUI   &kp RALT  &kp RCTRL  &kp RCTRL  &kp RCTRL
             >;
@@ -51,29 +51,9 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans     &trans       &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans     &trans    &kp RA(W)
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RA(O)  &lt 4 RA(A)
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RA(O)  &lt 2 RA(A)
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans       &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans     &trans       &trans
-            >;
-        };
-
-        layer_left_space {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans               &trans         &trans  &trans   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                &none          &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &kp SPACE  &kp BACKSPACE  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_gaming {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp TAB  &trans  &trans  &trans  &trans  &trans               &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans               &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans               &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                    &kp SPACE  &kp BACKSPACE  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
